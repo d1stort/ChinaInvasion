@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Team_Project
 {
-    class Song
+    public class Song
     {
+        public int Id { get; set; }
+        public string SongName { get; set; }
     }
 }
