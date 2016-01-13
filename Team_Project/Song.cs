@@ -10,5 +10,6 @@ namespace Team_Project
     {
         public int Id { get; set; }
         public string SongName { get; set; }
+        public int Duration { get; set; }
     }
 }
